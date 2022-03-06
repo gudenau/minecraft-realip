@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "realip",
+  "version": "${version}",
+
+  "name": "RealIP",
+  "description": "Allows Fabric servers behind TCP Shield to know the real IP of players.",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+    "homepage": "https://github.com/gudenau/minecraft-realip/",
+    "sources": "https://github.com/gudenau/minecraft-realip/"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.gudenau.minecraft.realip.RealIp"
+    ]
+  },
+  "mixins": [
+    "realip.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "java": ">=17"
+  }
+}
