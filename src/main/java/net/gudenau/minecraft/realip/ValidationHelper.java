@@ -1,6 +1,5 @@
 package net.gudenau.minecraft.realip;
 
-import net.fabricmc.example.validation.*;
 import net.gudenau.minecraft.realip.validation.*;
 
 import java.nio.charset.StandardCharsets;
